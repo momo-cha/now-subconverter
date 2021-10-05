@@ -21,7 +21,7 @@ jobs:
 
     - name: Update sub-web
       run: |
-        rm -rf sub-webhttps://github.com/momo-cha
+        rm -rf sub-web
         git clone https://github.com/momo-cha/sub-web.git
 
     - name: Use Node.js ${{ matrix.node-version }}
